@@ -1,15 +1,16 @@
 //
-//  main.cpp
+//  Runner.cpp
 //  VectorProject
 //
 //  Created by Woolsey, Adam on 1/29/18.
 //  Copyright © 2018 Woolsey, Adam. All rights reserved.
 //
 
-#include <iostream>
+#include "Controller.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    Controller app;
+    app.start();
     return 0;
 }
